@@ -1,0 +1,44 @@
+<html>
+<head>
+<ul>
+				<li><a href=" my web.htm">Home</a></li>
+				</ul>
+<title>Feedback form</title>
+
+  <link href="javaa.css" rel="stylesheet">
+
+
+<body>
+
+  <div id="main">
+  
+<h1> <font color="">Feedback Form</form> </h1></div></body>
+</head>
+<body background="background.jpg" >
+   <form action="mailer.php" id="contact_form" method="post">
+
+            <ul class="form">               
+
+                <li class="short">
+                    <label> name<span class="required"></span></label>
+                    <input type="text" name="name" id="name" value=" name" class="requiredField" onblur="if(this.value == '') { this.value = ' name'; }" onfocus="if(this.value == 'name') { this.value = ''; }" />
+                </li>
+				<br>
+                <li class="long">
+                    <label>Email Address<span class="required"></span></label>                  
+                    <input type="text" name="email" id="email" value="Email Address" class="requiredField email" onblur="if(this.value == '') { this.value = 'Email Address'; }" onfocus="if(this.value == 'Email Address') { this.value = ''; }" />                        </li>
+<br>
+   
+                <li class="short">
+                    <label>Telephone Number</label>
+                    <input type="text" name="phone" id="phone" value="Telephone Number" class="requiredField" onblur="if(this.value == '') { this.value = 'Telephone Number'; }" onfocus="if(this.value == 'Telephone Number') { this.value = ''; }" />
+                </li>
+<br>
+                <li class="textarea">
+                    <label>Feedback<span class="required"></span></label>
+                    <textarea name="message" id="message" rows="20" cols="30"></textarea>
+                </li>
+<br>
+                <li class="button"><input name="submitted" id="submitted" value="Submit" class="submit" type="submit" />
+                </li>
+				</html>

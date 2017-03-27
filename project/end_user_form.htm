@@ -1,0 +1,51 @@
+<html>
+<head>
+<ul>
+				<li><a href=" my web.htm">Home</a></li></ul>
+<title>my last page</title>
+  <link href="javaa.css" rel="stylesheet">
+<body>
+  <div id="main">
+<h1> Donation </h1></div></body>
+<font color="red">Form: </font> 
+</head>
+ <body background="http://www.designdune.com/wp-content/uploads/2011/10/Paper-Background-Texture-520x728.jpg" >
+<form action="TeachingInput.php "method="post">
+ <fieldset>
+ <legend>Personal information:</legend>
+
+Name:  <br>
+<input type="text" placeholder="Name" name="Holder" required/>
+<br><br>
+Address: <br>
+<input type="text" placeholder="Address" name="Address" required/>
+<br><br>
+Contact no: <br>
+<input type="tel" placeholder="Contact no" name="Contact_no" pattern="[1-9]{10}" required />
+<br><br>
+Amount:   <br>
+<input type="Amount" placeholder="Amount" name="Amount" required  pattern="[1-9]{10}"/>
+<br><br>
+Gender: <br>
+<input type="radio"name="Gender"/>
+Male
+<input type="radio"name="gender"/>
+Female
+<br><br>
+<input type="button" onclick="check(this.form)" value="Submit"/>
+<input type="reset"value="RESET"/>
+<br><br>
+<a href="tel:05422390403">For any other query Call 7042546839</a>
+</fieldset>
+</body>
+</form>
+</html>
+
+<script language="javascript">
+function check(form)
+{
+ 
+
+    window.location.replace('food.htm')
+}
+</script>

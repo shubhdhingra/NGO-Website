@@ -1,0 +1,35 @@
+<head>
+ <link href="login.css" rel="stylesheet">
+</head>
+
+
+</head>
+<body background="http://webneel.com/wallpaper/sites/default/files/images/01-2014/10-3d-wallpaper.jpg">
+</body>
+<script language="javascript">
+function check(form)
+{
+ 
+ if(form.userid.value == "gaurav" ||form.userid.value == "sanya" ||form.userid.value == "shubham"||form.userid.value == "apoorva" && form.pswrd.value == "singh")
+  {
+    window.location.replace('information.htm')
+  }
+ else
+ {
+   alert("Error Password or Username")
+  }
+}
+</script>
+<section class="login">
+	<div class="titulo">Staff Login</div>
+	<form action="#" method="post" enctype="application/x-www-form-urlencoded">
+    	<input type="text" name="userid"  title="Username required" placeholder="Username" data-icon="U" required >
+        <input type="password" name="pswrd" title="Password required" placeholder="Password" data-icon="x" required>
+        <div class="olvido">
+        	
+          
+        </div>
+        <a href="#" class="enviar"><input type="button" onclick="check(this.form)" value="Login" /></a>
+		
+    </form>
+</section>
